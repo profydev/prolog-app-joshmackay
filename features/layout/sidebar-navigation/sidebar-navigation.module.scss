@@ -50,9 +50,14 @@
 
 .logo {
   width: 7.375rem;
+  height: 33px;
 
-  @media (min-width: breakpoint.$desktop) {
-    margin: space.$s0 space.$s4;
+  // @media (min-width: breakpoint.$desktop) {
+  //   margin: space.$s0 space.$s4;
+  // }
+
+  @media (max-width: breakpoint.$desktop) {
+    content: url("/icons/logo-large.svg");
   }
 }
 
